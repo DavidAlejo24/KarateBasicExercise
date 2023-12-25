@@ -1,0 +1,6 @@
+Conclusiones
+    - Se adaptó y configuró el entorno de Karate.
+    - Se realizaron las pruebas respectivas para validar el CRUD de Usuarios del API PetStore.
+Recomendaciones
+    - Se recomienda compartir un proyecto con la estructura base donde se realizará la prueba,
+    con el fin de mantener un standar de los pruebas.
