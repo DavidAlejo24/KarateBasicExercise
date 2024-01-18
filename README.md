@@ -31,6 +31,8 @@ O si solo queremos probar los Test, podemos correr la clase ExamplesTest ubicado
 El informe se crea en la ruta:
 	- main/target/karate-reports/examples.users.users.html
 	
+![Informe Karate CRUD API](./InformeAPI.jpeg)
+	
 
 	
 

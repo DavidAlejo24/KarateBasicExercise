@@ -1,6 +1,15 @@
 Conclusiones
-    - Se adaptó y configuró el entorno de Karate.
-    - Se realizaron las pruebas respectivas para validar el CRUD de Usuarios del API PetStore.
+   (1) Se adaptó y configuró el entorno de Karate.
+   (2) Se realizaron las pruebas respectivas para validar el CRUD de Usuarios del API PetStore.
+   (3) Podemos observar que los tiempos de ejecución en cada unas de las solicitudes son optimos,
+      de igual manera podemos destacar que la función de crear es la operación que mas demora, seguida
+      por la actualización de usuario.
+   (4) Podemos considerar que si el sistema llega a recibir miles de solicitudes
+       debido alguna promoción, etc, y si a los antiguos usuarios que no han ingresado en un tiempo mas los nuevos usuarios puede
+       saturar el servidor o generar largas colas de trafico de solicitudes CREATE and UPDATE.
+
 Recomendaciones
-    - Se recomienda compartir un proyecto con la estructura base donde se realizará la prueba,
+    (1) Se recomienda compartir un proyecto con la estructura base donde se realizará la prueba,
     con el fin de mantener un standar de los pruebas.
+    (2) En base a las conclusiones 3 y 4 recomendamos establecer reglas de negocio
+    para el api NO solicite actualizar información del usuario cuando haya saturación de solicitudes
